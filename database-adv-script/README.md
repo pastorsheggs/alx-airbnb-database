@@ -65,9 +65,9 @@ This file includes SQL queries demonstrating the use of aggregation functions an
    - Uses `COUNT()` to calculate the total number of bookings made by each user.
    - Groups results by `user_id`.
 
-2. **Window Function – RANK()**
-   - Ranks properties based on the total number of bookings using the `RANK()` window function.
-   - Uses `OVER(ORDER BY COUNT(*) DESC)` to determine ranking.
+2. **Window Function – ROW_NUMBER()**
+   - Ranks properties based on the number of bookings using the `ROW_NUMBER()` window function.
+   - Useful for generating leaderboards or analytics.
 
 > Useful for leaderboard features, analytics dashboards, and property popularity tracking.
 
