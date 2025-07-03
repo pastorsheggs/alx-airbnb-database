@@ -27,3 +27,27 @@ This file contains complex SQL queries designed to demonstrate mastery of SQL JO
 - Files:
   - `joins_queries.sql`
   - `README.md`
+
+# 📄 Subqueries – Airbnb Clone Database
+
+This file contains examples of both non-correlated and correlated subqueries used in the context of the Airbnb Clone project.
+
+## 📌 File: `subqueries.sql`
+
+### ✅ Included Queries
+
+1. **Non-Correlated Subquery**
+   - Retrieves all properties where the average rating is greater than 4.0.
+   - The subquery independently calculates average ratings for each property.
+
+2. **Correlated Subquery**
+   - Finds users who have made more than 3 bookings.
+   - The subquery depends on the outer query to count bookings per user.
+
+## 📁 Location
+
+- Repository: `alx-airbnb-database`
+- Directory: `database-adv-script/`
+- Files:
+  - `subqueries.sql`
+  - `README.md`
