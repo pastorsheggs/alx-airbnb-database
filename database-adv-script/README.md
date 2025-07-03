@@ -51,3 +51,30 @@ This file contains examples of both non-correlated and correlated subqueries use
 - Files:
   - `subqueries.sql`
   - `README.md`
+
+
+# 📊 Aggregations & Window Functions – Airbnb Clone Database
+
+This file includes SQL queries demonstrating the use of aggregation functions and window functions for backend data analysis.
+
+## 📌 File: `aggregations_and_window_functions.sql`
+
+### ✅ Included Queries
+
+1. **Aggregation with GROUP BY**
+   - Uses `COUNT()` to calculate the total number of bookings made by each user.
+   - Groups results by `user_id`.
+
+2. **Window Function – RANK()**
+   - Ranks properties based on the total number of bookings using the `RANK()` window function.
+   - Uses `OVER(ORDER BY COUNT(*) DESC)` to determine ranking.
+
+> Useful for leaderboard features, analytics dashboards, and property popularity tracking.
+
+## 📁 Location
+
+- Repository: `alx-airbnb-database`
+- Directory: `database-adv-script/`
+- Files:
+  - `aggregations_and_window_functions.sql`
+  - `README.md`
